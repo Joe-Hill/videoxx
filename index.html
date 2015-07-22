@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Video++</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" href="//cdn.bootcss.com/fullPage.js/2.6.7/jquery.fullPage.min.css" />
+	<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+
+	<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+	<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="//cdn.bootcss.com/fullPage.js/2.6.7/jquery.fullPage.min.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				css3: true,
+				easingcss3: 'linear',
+				sectionsColor: ['', '', '#3d3099', '', '#333'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+				menu: '#menu',
+				controlArrows: false,
+				slidesNavigation: true,
+				scrollingSpeed: 1000
+			});
+
+			setInterval(function(){
+        $.fn.fullpage.moveSlideRight();
+    	}, 3000);
+		});
+	</script>
+
+</head>
+<body>
+	<!-- menu -->
+	<div id="menu">
+		<div class="row">
+			<div class="col-md-3 col-sm-3 col-xs-6">
+				<a class="navbar-logo" href="#"></a>
+			</div>
+			<div class="col-md-7 col-sm-6 hidden-xs">
+				<a class="btn normal-btn" >文档</a>
+				<a class="btn normal-btn" href="#">控制台</a>
+				<a class="btn normal-btn" href="#">下载</a>
+			</div>
+			<div class="visible-xs-inline col-xs-3"></div>
+			<div class="col-md-2 col-sm-3 col-xs-1">
+				<a class="register-btn btn hidden-xs" href="#">注册</a>
+				<a class="purple-btn btn" href="#">登录</a>
+			</div>
+		</div>
+	</div>
+	<!-- fullpage -->
+	<div id="fullpage">
+		<!-- section0 -->
+		<div class="section" id="section0">
+			<div class="slide slide1">
+				<h1>
+					Video++
+					<br>云视链开放平台</h1>
+				<h3>智能视频互动技术创造者</h3>
+				<a href="#" class="btn purple-btn btn-lg login-modal">一键接入</a>
+				<a href="#" target="_blank" class="btn btn-default btn-lg">Demo</a>
+			</div>
+			<div class="slide slide2">
+				<h1>
+					Video++
+					<br>全球首届</h1>
+				<h3>SaaS Innovation Summit</h3>
+				<a href="#" target="_blank" class="btn purple-btn btn-lg">大会详情</a>
+				<a href="#" target="_blank" class="btn btn-default btn-lg">立即报名</a>
+			</div>
+		</div>
+		<!-- section1 -->
+		<div class="section" id="section1">
+			<div id="slogan">
+				<div class="container">
+					<div class="section-title center-block">
+						<h4>一行代码接入</h4>
+						<h5 class="hidden-xs">接入后即可为你网站/APP上的视频提供如下功能</h5>
+					</div>
+					<hr>
+					<div class="row code-row">
+						<div class="col-xs-4 card">
+							<img  src="http://7xkfcp.com2.z0.glb.qiniucdn.com/lp-slogan-icon1.png">
+							<h4>动态内链</h4>
+							<p class="hidden-xs">
+								点击目标物体即可
+								<br>生成视频动态内链</p>
+						</div>
+						<div class="col-xs-4 card">
+							<img  src="http://7xkfcp.com2.z0.glb.qiniucdn.com/lp-slogan-icon2.png">
+							<h4>信息展示</h4>
+							<p class="hidden-xs">
+								云视链40亿大数据自动
+								<br>生成目标物体的信息展示窗口</p>
+						</div>
+						<div class="col-xs-4 card">
+							<img  src="http://7xkfcp.com2.z0.glb.qiniucdn.com/lp-slogan-icon3.png">
+							<h4>智能识别</h4>
+							<p class="hidden-xs">
+								自动识别出视频中的
+								<br>关键物品、人物、地点、信息</p>
+						</div>
+					</div>
+					<div class="section-title center-block">
+						<h4>一分钟接入VIDEO++</h4>
+					</div>
+					<hr>
+					<div class="row video-row">
+						<div class="col-xs-4 card">
+							<img src="http://7xkfcp.com2.z0.glb.qiniucdn.com/lp-slogan-10s.png">
+							<p>+10秒 注册Video++</p>
+						</div>
+						<div class="col-xs-4 card">
+							<img src="http://7xkfcp.com2.z0.glb.qiniucdn.com/lp-slogan-25s.png">
+							<p>+25秒 添加网站接入代码</p>
+						</div>
+						<div class="col-xs-4 card">
+							<img src="http://7xkfcp.com2.z0.glb.qiniucdn.com/lp-slogan-25s2.png">
+							<p>+25秒 加入智能购物点</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section2 -->
+		<div class="section" id="section2">
+			<h1> <strong>Video++</strong>
+				&nbsp;Make Video Smart <i class="fa fa-arrow-circle-right"></i>
+			</h1>
+			<img class="img-pc" src="http://7xkfcp.com2.z0.glb.qiniucdn.com/lp-pc.png">
+			<p class="hidden-xs"> <strong>接入Video++后，任何网站/App都可以在视频中加入智能跟踪的信息、科普、购物点
+					<br>实现兴趣点和作用点的完美转化。</strong>
+			</p>
+			<p class="hidden-xs">
+				<strong>开发者不需要编写冗长的代码，简单几步就可以建构你自己的视频互动变现系统，从而更专注于产品本身。</strong>
+			</p>
+		</div>
+		<!-- section3 -->
+		<div class="section" id="section3">
+			<div class="holder"></div>
+			<div id="featured-in">
+				<div class="container">
+					<h4>
+						他们说
+						<span class="text-blue">/&nbsp;</span>
+						<span class="text-light-violet">AS FEATURED IN</span>
+					</h4>
+					<div class="row">
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<a class="zaker"></a>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<a class="sina"></a>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<a class="dycj"></a>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<a class="kr36"></a>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<a class="wangyi"></a>
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-6">
+							<a class="fenghuang"></a>
+						</div>
+						<div class="hidden-xs col-md-3 col-sm-4 col-xs-6">
+							<a class="canadian-business"></a>
+						</div>
+						<div class="hidden-xs col-md-3 col-sm-4 col-xs-6">
+							<a class="isc"></a>
+						</div>
+						<div class="hidden-xs col-md-3 col-sm-4 col-xs-6">
+							<a class="jiefang"></a>
+						</div>
+						<div class="hidden-xs col-md-3 col-sm-4 col-xs-6">
+							<a class="global"></a>
+						</div>
+						<div class="hidden-xs col-md-3 col-sm-4 col-xs-6">
+							<a class="tech-crunch"></a>
+						</div>
+						<div class="hidden-xs col-md-3 col-sm-4 col-xs-6">
+							<a class="tech-node"></a>
+						</div>
+						<div class="hidden-xs col-md-3 col-sm-4 col-xs-6">
+							<a class="tech-web"></a>
+						</div>
+						<div class="hidden-xs col-md-3 col-sm-4 col-xs-6">
+							<a class="mit-tech"></a>
+						</div>
+						<div class="hidden-xs col-md-3 col-sm-4 col-xs-6">
+							<a class="tencent"></a>
+						</div>
+						<div class="hidden-xs col-md-3 col-sm-4 col-xs-6">
+							<a class="cyb"></a>
+						</div>
+						<div class="hidden-xs col-md-3 col-sm-4 col-xs-6">
+							<a class="xinhuashe"></a>
+						</div>
+						<div class="hidden-xs col-md-3 col-sm-4 col-xs-6">
+							<a class="dfw"></a>
+						</div>
+						<div class="hidden-xs col-md-3 col-sm-4 col-xs-6">
+							<a class="forbes"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section4 -->
+		<div class="section" id="section4">
+			<div class="holder"></div>
+			<div class="container text-left">
+				<div class="help-center row">
+					<div class="col-sm-4 col-xs-6">
+						<div class="menu">
+							<div class="menu-title"> <i class="iconfont icon-lianxixinxi"></i>
+								<span>CONTACT</span>
+							</div>
+							<div class="menu-list email-list">
+								<ul>
+									<li>
+										<a href="mailto:luzhu@venvyvideo.cn">
+											Business
+											<br>luzhu@venvyvideo.cn</a>
+									</li>
+									<li>
+										<a href="mailto:wcui@venvyvideo.cn">
+											Media
+											<br>wcui@venvyvideo.cn</a>
+									</li>
+									<li>
+										<a href="mailto:shuizhu@venvyvideo.cn">
+											Product
+											<br>shuizhu@venvyvideo.cn</a>
+									</li>
+									<li>
+										<a href="mailto:hr@venvyvideo.cn">
+											Career
+											<br>hr@venvyvideo.cn</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-2 col-xs-6">
+						<div class="menu">
+							<div class="menu-title">
+								<i class="iconfont icon-gongsijieshao"></i>
+								<span>COMPANY</span>
+							</div>
+							<div class="menu-list">
+								<ul>
+									<li>
+										<a href="javascript:void(0);">Blog</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">News</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-2 col-xs-6">
+						<div class="menu">
+							<div class="menu-title">
+								<i class="iconfont icon-infenicon13"></i>
+								<span>POLICY</span>
+							</div>
+							<div class="menu-list">
+								<ul>
+									<li>
+										<a href="terms.html" target="_blank">Terms of Use</a>
+									</li>
+									<li>
+										<a href="privacy.html" target="_blank">Privacy Policy</a>
+									</li>
+									<li>
+										<a href="content_takedown.html" target="_blank">Content Takedown</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-2 col-xs-6">
+						<div class="menu">
+							<div class="menu-title">
+								<i class="iconfont icon-crmtubiao28"></i>
+								<span>TEAM</span>
+							</div>
+							<div class="menu-list">
+								<ul>
+									<li>
+										<a href="about.html" target="_blank">About Us</a>
+									</li>
+									<li>
+										<a href="//http://www.jobtong.com/e/13398" target="_blank">We are hiring</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container copy">
+				<div class="hidden-xs">
+					<a class="bottom-logo center-block" href="#"></a>
+				</div>
+				<p>© 云视链 2015 © VENVY INC・中文版</p>
+				<p>沪ICP备15042830-6号</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

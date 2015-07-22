@@ -1,0 +1,299 @@
+@CHARSET "ISO-8859-1";
+/* Reset CSS
+ * --------------------------------------- */
+
+a{
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+li {
+	list-style-type: none;;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: NotoSansHans-Regular,AvenirNext-Regular,proxima-nova,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei','Open Sans','Helvetica Neue',Arial,sans-serif !important;
+}
+
+/* Custom CSS
+ * --------------------------------------- */
+body{
+	font-family: arial,helvetica;
+	/*color: #ddd;*/
+	/*color: rgba(0,0,0,0.5);*/
+}
+.wrap{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+}
+
+p{
+	font-size: 14px;
+	margin-top: 5px;
+}
+.holder {
+	height: 30px;
+}
+.intro p{
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+.section{
+	text-align:center;
+}
+#menu li {
+	display:inline-block;
+	margin: 10px;
+	color: #000;
+}
+#menu li.active{
+	color: #fff;
+}
+#menu li a{
+	text-decoration:none;
+	color: #000;
+	background-color: none;
+}
+#menu li a:hover{
+	background-color: rgba(255, 255, 255, 0);
+}
+#menu li a{
+	padding: 9px 18px;
+	display:block;
+}
+
+#menu{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index: 70;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0;
+	background-color: rgba(220, 220, 220, 0.5);
+}
+
+.fp-slidesNav ul li a span {
+	background-color: #3d3099;
+}
+.slide h1, .slide h3 {
+	color: white;
+}
+.slide1 {
+	background-image: url(http://7xkgg5.com1.z0.glb.clouddn.com/Video++/slide_image_1.jpg);
+	background-size: cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.slide2 {
+	background-image: url(http://7xkgg5.com1.z0.glb.clouddn.com/Video++/slide_image_2.jpg);
+	background-size: cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.navbar-logo {
+  display: block;
+	width: 150px;
+	height: 36px;
+	margin-left: 10px;
+	background-image: url(http://7xkgg5.com1.z0.glb.clouddn.com/Video++/logo.png);
+	background-size: cover;
+	background-position: center;;
+	background-repeat: no-repeat;;
+}
+.normal-btn {
+	color: #000 !important;
+}
+.register-btn {
+	color: #3d3099 !important;
+}
+.purple-btn {
+	color: white !important;
+	background-color: #3d3099;
+}
+.btn-default {
+	color: #3d3099;
+}
+.section-title {
+	margin-top: 50px;
+}
+.card p {
+	color: rgb(120, 120, 120);
+	font-size: 14px;
+}
+.code-row .card img {
+	max-width: 136px;
+	width: 80%;
+}
+.video-row .card img {
+	max-width: 200px;
+	width: 85%;
+}
+.img-pc {
+	width: 90%;
+	max-width: 420px;
+}
+#section2 {
+	color: white;
+}
+#section2 p {
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+#featured-in .zaker {
+  background: url("http://videojj.com/asset/media-logo/zaker.png") center center no-repeat;
+  background-size: 117px 29px;
+  height: 100px;
+  display: block;
+}
+#featured-in .canadian-business {
+  background: url("http://videojj.com/asset/media-logo/canadian-business.png") center center no-repeat;
+  background-size: 177px 25px;
+  height: 100px;
+  display: block;
+}
+#featured-in .dycj {
+  background: url("http://videojj.com/asset/media-logo/dycj.png") center center no-repeat;
+  background-size: 101px 38px;
+  height: 100px;
+  display: block;
+}
+#featured-in .dfw {
+  background: url("http://videojj.com/asset/media-logo/dfw.png") center center no-repeat;
+  background-size: 144px 37px;
+  height: 100px;
+  display: block;
+}
+#featured-in .fenghuang {
+  background: url("http://videojj.com/asset/media-logo/fenghuang.png") center center no-repeat;
+  background-size: 83px 31px;
+  height: 100px;
+  display: block;
+}
+#featured-in .forbes {
+  background: url("http://videojj.com/asset/media-logo/forbes.png") center center no-repeat;
+  background-size: 158px 53px;
+  height: 100px;
+  display: block;
+}
+#featured-in .isc {
+  background: url("http://videojj.com/asset/media-logo/isc.png") center center no-repeat;
+  background-size: 134px 36px;
+  height: 100px;
+  display: block;
+}
+#featured-in .jiefang {
+  background: url("http://videojj.com/asset/media-logo/jiefang.png") center center no-repeat;
+  background-size: 89px 42px;
+  height: 100px;
+  display: block;
+}
+#featured-in .global {
+  background: url("http://videojj.com/asset/media-logo/global.png") center center no-repeat;
+  background-size: 99px 44px;
+  height: 100px;
+  display: block;
+}
+#featured-in .tech-crunch {
+  background: url("http://videojj.com/asset/media-logo/tech-crunch.png") center center no-repeat;
+  background-size: 171px 90px;
+  height: 100px;
+  display: block;
+}
+#featured-in .global {
+  background: url("http://videojj.com/asset/media-logo/global.png") center center no-repeat;
+  background-size: 99px 44px;
+  height: 100px;
+  display: block;
+}
+#featured-in .sina {
+  background: url("http://videojj.com/asset/media-logo/sina.png") center center no-repeat;
+  background-size: 118px 32px;
+  height: 100px;
+  display: block;
+}
+#featured-in .tencent {
+  background: url("http://videojj.com/asset/media-logo/tencent.png") center center no-repeat;
+  background-size: 70px 70px;
+  height: 100px;
+  display: block;
+}
+#featured-in .tech-node {
+  background: url("http://videojj.com/asset/media-logo/tech-node.png") center center no-repeat;
+  background-size: 120px 20px;
+  height: 100px;
+  display: block;
+}
+#featured-in .mit-tech {
+  background: url("http://videojj.com/asset/media-logo/mit-tech.png") center center no-repeat;
+  background-size: 90px 47px;
+  height: 100px;
+  display: block;
+}
+#featured-in .tech-web {
+  background: url("http://videojj.com/asset/media-logo/tech-web.png") center center no-repeat;
+  background-size: 111px 40px;
+  height: 100px;
+  display: block;
+}
+#featured-in .cyb {
+  background: url("http://videojj.com/asset/media-logo/cyb.png") center center no-repeat;
+  background-size: 102px 46px;
+  height: 100px;
+  display: block;
+}
+#featured-in .wangyi {
+  background: url("http://videojj.com/asset/media-logo/wangyi.png") center center no-repeat;
+  background-size: 108px 24px;
+  height: 100px;
+  display: block;
+}
+#featured-in .xinhuashe {
+  background: url("http://videojj.com/asset/media-logo/xinhuashe.png") center center no-repeat;
+  background-size: 130px 54px;
+  height: 100px;
+  display: block;
+}
+#featured-in .kr36 {
+  background: url("http://videojj.com/asset/media-logo/kr36.png") center center no-repeat;
+  background-size: 83px 68px;
+  height: 100px;
+  display: block;
+}
+.menu-list ul {
+	padding-left: 0px;
+}
+.email-list ul li{
+	margin-bottom: 15px;
+}
+.help-center .menu .menu-title span {
+  color: white;
+  font-size: 16px;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.help-center .menu .menu-list a {
+  color: #888;
+}
+.copy {
+	margin-top: 35px;
+}
+.copy p {
+	color: #a6a6a6 !important;
+}
+.bottom-logo {
+  display: block;
+	background-image: url(http://7xkgg5.com1.z0.glb.clouddn.com/Video++/logo-bottom.png);
+	width: 200px;
+	height: 40px;
+	background-size: cover;
+	background-position: center;;
+	background-repeat: no-repeat;;
+}
